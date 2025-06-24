@@ -20,7 +20,7 @@ const char* password = "Celebrando2025";
 void handleRoot() {
   String html = "<!DOCTYPE html><html lang=\"pt-br\"><head><meta charset=\"UTF-8\">";
   html += "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">";
-  html += "<title>Estação Meteorológica EMPO</title>";
+  html += "<title>A EMPO</title>";
   html += "<style>";
   html += "body { background-color: #4B4B4B; color: white; font-family: Arial; text-align: center; }";
   html += ".dado { background-color: #4682B4; padding: 20px; margin: 20px; border-radius: 10px; }";
@@ -51,7 +51,7 @@ void handleRoot() {
 
   html += "</head><body>";
   html += "<img src=\"https://github.com/JuMayumiC/EMAP-interface/blob/main/EMAP%20logotipo.png?raw=true\" alt=\"Logo da EMAP\" style=\"width:250px;height:auto;\">";
-  html += "<h1>Estação Meteorológica Portátil - EMPO</h1>";
+  html += "<h1>A Estação Meteorológica Portátil - A EMPO</h1>";
   html += "<div class='dado'><h2>Temperatura: <span id='temp'>---</span></h2></div>";
   html += "<div class='dado'><h2>Umidade: <span id='umi'>---</span></h2></div>";
   html += "<div class='dado'><h2>Umidade do Solo: <span id='solo'>---</span></h2></div>";
